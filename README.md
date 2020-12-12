@@ -33,7 +33,7 @@ Let’s get started with  **Bubble Sort** , shall we. The space complexity for t
 This is usually not that useful in most situations, but still helps a beginner grasp the concepts of implementing an algorithm to solve a problem.
 
 ![selection sort](https://i.stack.imgur.com/DYIRO.gif)
-
+![enter image description here](https://stackabuse.s3.amazonaws.com/media/selection-sort-in-javascript-1.gif)
 ## Insertion sort
 The next sorting algorithm which has a time complexity of O(n²) is  **Insertion Sort** , it also has a space complexity of O(1). This is most useful when there is a scenario wherein you are receiving a series of numbers in real time, and need them in a sorted array.
 
