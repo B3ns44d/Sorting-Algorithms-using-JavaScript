@@ -8,9 +8,10 @@
 List of Sorting Algorithm
 
  1. Bubble Sort.
- 3. Selection Sort.
- 4. Insertion Sort.
- 6. Quick Sort.
+ 2. Selection Sort.
+ 3. Insertion Sort.
+ 4. Quick Sort.
+ 5. Binary Search
 
 ## Bubble Sort
 Let’s get started with  **Bubble Sort** , shall we. The space complexity for the algorithm is O(1) and the average time complexity is O(n²).The pseudocode is as follows:
@@ -48,7 +49,7 @@ The main concept to understand when using this technique is that, there is a  **
 
 ## Quick Sort
 
-Lastly, let us see how  **quick sort** justifies its name and goes about sorting an array.
+let us see how  **quick sort** justifies its name and goes about sorting an array.
 
 It works by  **choosing a pivot element** , and making sure that all the elements  **to the left of the pivot element is less** than the pivot(not necessarily sorted, they just need to be less than the pivot) and that all the  **elements to the right of the pivot are all greater** than it.
 
@@ -70,6 +71,20 @@ Once you have a helper function to do the above task, we need to r  **ecursively
 -   Once the base case becomes invalid, it means that  `left` equals  `right` , so we return the array.
 
 ![quick sort](https://stackabuse.s3.amazonaws.com/media/quicksort-in-javascript-1.jpg)
+
+
+## Binary Search
+
+**Binary Search** allows you to quickly search through an array by cutting your search interval in half.
+
+You will typically start in the middle of the array and check whether or not your target item is less than, greater than, or equal to the middle index. If it's smaller than the middle index, then you know that you'll only need to search the left half of the array. If it's greater than the middle index, then you know that you'll only need to search the right side of the array.
+
+The algorithm keeps repeating this process until the middle index is equal to your target item. If your target item isn't present, then you could easily have the function return a -1 or false to indicate that what you're searching for isn't in the array.
+
+### Conclusion
+
+**Binary Search** is a great algorithm to learn, especially when you're dealing with large amounts of data. It can quickly improve the time complexity of your applications from O(n) to O(Log n).
+![Binary Search](https://www.oreilly.com/library/view/algorithms-in-a/9780596516246/httpatomoreillycomsourceoreillyimages595760.png)
 
 ## ❤ Funding 🔝
 **If you want to support me to do more projects and develop myself, I would be grateful to you** 
